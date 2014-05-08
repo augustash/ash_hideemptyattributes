@@ -32,11 +32,20 @@ Skip listing of attributes if they have a blank/empty value for the attribute. T
 
 **Assumes you have the `Ash_Up` module installed already. [View on Github](https://github.com/augustash/ash_up)**
 
+To get up and running quickly, the following command will install `Ash_Core` and
+`Ash_Up`.
+
+```bash
+$ curl -sL https://s3.amazonaws.com/augustash/up | ruby
+```
+
 From within your Magento project's directory
 
 ```bash
-$ php -f shell/up.php -- --install ash_core,ash_hideemptyattributes
+$ php -f shell/up.php -- --install ash_hideemptyattributes
 ```
+
+-----
 
 ```
 @copyright  Copyright (c) 2014 August Ash, Inc. (http://www.augustash.com)
