@@ -1,0 +1,5 @@
+# Ash_HideEmptyAttributes Mappings
+
+Ash_HideEmptyAttributes.xml     app/etc/modules/Ash_HideEmptyAttributes.xml
+code                            app/code/community/Ash/HideEmptyAttributes
+frontend/template/*             app/design/frontend/base/default/template/
