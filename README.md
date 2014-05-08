@@ -1,7 +1,7 @@
-Title:  Ash_HideEmptyAttributes Extension
-Author: Josh Johnson
-Email:  core@augustash.com
-Date:   May 08, 2014
+Title:  Ash_HideEmptyAttributes Extension  
+Author: Josh Johnson  
+Email:  core@augustash.com  
+Date:   May 08, 2014  
 
 # Description
 
