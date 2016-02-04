@@ -85,13 +85,31 @@ class Ash_HideEmptyAttributes_Helper_Output extends Mage_Catalog_Helper_Output
              * it's a valid value for the attribute and we should
              * not skip the display of the attribute label and value
              */
-            $valid = (in_array($value, $options)) ? true : false;
+            if ($frontendInputType === 'multiselect') {
+                $multiValues = explode(', ', $value);
+                $validCount = 0;
+                foreach ($multiValues as $val) {
+                    if (in_array($val, $options)) {
+                        $validCount++;
+                    }
+                }
+
+                // if more than one valid value found, assume it is okay value
+                $valid = ($validCount > 0) ? true : false;
+            } else {
+                $valid = (in_array($value, $options)) ? true : false;
+            }
         } else {
             /**
              * default to true for attributes that
              * are not select/multiselect inputs
              */
-            $valid = true;
+            if ($frontendInputType == 'text') {
+                $valid = (!empty($value) && $value !== 'No') ? true : false;
+            } else {
+                $valid = true;
+            }
+
         }
 
         return $valid;
