@@ -16,4 +16,5 @@ Typically this is displayed as a "N/A" or "No" value.
 ## Module-related files outside of this directory
 
 + app/etc/modules/Ash_HideEmptyAttributes.xml
++ app/design/frontend/base/default/layout/ash_hideemptyattributes.xml
 + app/design/frontend/base/default/template/ash_hideemptyattributes

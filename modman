@@ -1,4 +1,5 @@
 app/code/community/Ash/HideEmptyAttributes/                         app/code/community/Ash/HideEmptyAttributes/
 app/etc/modules/Ash_HideEmptyAttributes.xml                         app/etc/modules/Ash_HideEmptyAttributes.xml
 app/locale/en_US/*                                                  app/locale/en_US/
+app/design/frontend/base/default/layout/*                           app/design/frontend/base/default/layout/
 app/design/frontend/base/default/template/ash_hideemptyattributes/  app/design/frontend/base/default/template/ash_hideemptyattributes/
