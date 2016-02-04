@@ -14,7 +14,7 @@
 <config>
     <modules>
         <Ash_HideEmptyAttributes>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
         </Ash_HideEmptyAttributes>
     </modules>
 
@@ -60,6 +60,28 @@
             </catalog>
         </helpers>
     </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <ash_hideemptyattributes>
+                    <file>ash_hideemptyattributes.xml</file>
+                </ash_hideemptyattributes>
+            </updates>
+        </layout>
+    </frontend>
+
+    <adminhtml>
+        <translate>
+            <modules>
+                <Ash_HideEmptyAttributes>
+                    <files>
+                        <default>Ash_HideEmptyAttributes.csv</default>
+                    </files>
+                </Ash_HideEmptyAttributes>
+            </modules>
+        </translate>
+    </adminhtml>
 
     <default>
         <ash_hideemptyattributes>
