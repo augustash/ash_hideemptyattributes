@@ -15,8 +15,6 @@
     <modules>
         <Ash_HideEmptyAttributes>
             <version>1.0.0</version>
-            <ashup
-                remote="https://s3.amazonaws.com/augustash/mage/ash_hideemptyattributes-latest.zip" />
         </Ash_HideEmptyAttributes>
     </modules>
 
