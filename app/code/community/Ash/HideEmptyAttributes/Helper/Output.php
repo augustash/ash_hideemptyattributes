@@ -105,7 +105,7 @@ class Ash_HideEmptyAttributes_Helper_Output extends Mage_Catalog_Helper_Output
              * are not select/multiselect inputs
              */
             if ($frontendInputType == 'text') {
-                $valid = (!empty($value) && $value !== 'No') ? true : false;
+                $valid = (!empty($value) && $value !== 'No' && $value !== 'N/A') ? true : false;
             } else {
                 $valid = true;
             }
