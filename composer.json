@@ -1,0 +1,17 @@
+{
+    "name": "augustash/ash_hideemptyattributes",
+    "description": "Magento 1.x module to skip the display of attributes if they have a blank/empty value for the attribute. Typically these are displayed as a 'N/A' or 'No' value within the product's additional info table.",
+    "homepage": "https://github.com/augustash/ash_hideemptyattributes.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Johnson",
+            "email": "jjohnson@augustash.com"
+        }
+    ],
+    "type": "magento-module",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "augustash/ash_core": "*"
+    }
+}
